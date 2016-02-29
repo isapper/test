@@ -1,0 +1,81 @@
+
+body {
+    background-color: #e8e8e8;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.form-signin {
+    margin: 0 auto;
+    max-width: 330px;
+    padding: 15px;
+}
+.form-signin .form-signin-heading, .form-signin .checkbox {
+    margin-bottom: 10px;
+}
+.form-signin .checkbox {
+    font-weight: normal;
+}
+.form-signin .form-control {
+    box-sizing: border-box;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    position: relative;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+.form-signin input[type="email"] {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-bottom: -1px;
+}
+.form-signin input[type="password"] {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-bottom: 10px;
+}
+.glyphicon-ok{
+    color: #3c763d;
+}
+.glyphicon-remove{
+    color: #a94442;
+}
+
+.nav-sidebar, tbody{
+	display:none;
+}
+tr{
+    cursor:pointer;
+}
+
+#bg{
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    display: block;
+    position: fixed;
+    top:0;
+    left: 0;
+    background: url("../img/loading.gif") no-repeat center rgba(9,9,9,0.8);
+}
+
+#error{
+    color:#f00;
+    padding: 5px 0;
+}
+.accaunts{
+	display:none;
+}
+
+#exit{
+	font-size:24px;
+	margin: 4 13px;
+	color: #337ab7;
+	cursor:pointer;
+}
+
+#exit:hover{
+	color: #a94442;
+}
+
