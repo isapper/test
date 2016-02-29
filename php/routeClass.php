@@ -1,6 +1,6 @@
 <?php
 //Класс обработки входящих запросов
-class ruteClass {
+class routeClass {
 	
 	private $dbObj;
 	public $htmlON;

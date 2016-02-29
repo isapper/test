@@ -11,9 +11,9 @@ function __autoload($class_name) {
 	require_once  '/php/'. $class_name . '.php';
 }  
 
-$rute = new ruteClass((object)$_POST);
+$route = new ruteClass((object)$_POST);
 
-if($rute->htmlON)
+if($route->htmlON)
 	require_once  'html/index.html';
 
 
