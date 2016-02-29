@@ -1,13 +1,15 @@
 <?php
 class dbClass {
 	const USER = 'root';
-	const PASS = 'ZazA410';
+	const PASS = 'pass';
+	const HOST = '127.0.0.1';
+	const DBNAME = 'mailapp';
 
 	private $db;
 	  
 	function __construct(){
 		try{ 
-			$this->db = new PDO('mysql:host=localhost;dbname=mailapp', self::USER, self::PASS);
+			$this->db = new PDO('mysql:host='.self::HOST.';dbname='.self::DBNAME, self::USER, self::PASS);
 		}catch (PDOException $e){
 			die ('DB Error');
 		}
